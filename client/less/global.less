@@ -7,23 +7,142 @@
 /* Custom Styles */
 
 html {
-  color: @black;
   position: relative;
   min-height: 100%;
   body {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     margin: 0 0 20px;
-    background: @offwhite;
+    color: @text-color;
     header {
-      background: teal;
+      background: @blue;
+      min-height: 400px;
+      text-align:center;
+      padding-top:40px;
+      .logo{
+        display: block;
+        margin: 60px auto;
+        max-width: 300px;
+      }
+      ul{
+          display: inline-block;
+        li{
+          padding-right:30px;
+          float:left;
+          color: @text-color;
+            font-size: 18px;
+          
+          &:first-child{
+            list-style:none;
+          }
+        }
+      }
+    }
+    .section-1{
+      background: url('../img/about-bg.jpg') no-repeat;
+      background-size: cover;
+      min-height: 400px;
+      text-align: center;
+      .andrew{
+        width: 200px;
+        margin: 95px 0 50px;
+
+      }
+      .max-width{
+        max-width: 530px;
+        margin: 0 auto;
+        float: none;
+      }
+      p{
+         margin: 0 0 30px;
+        font-size: 18px;
+      }
+    }
+    .section-2{
+       background: #f48466;
+       min-height: 400px;
+       padding: 5% 0;
+       ul{
+          li{
+            background: #fff;
+            float: left;
+            padding: 15px 15px 0;
+            border-radius: 10px;
+            max-width: 31%;
+            margin: 1%;
+            list-style: none;
+            p{
+              margin: 10px 0;
+              text-align: center;
+            }
+            img{
+              width: 100%;
+            }
+          }
+       }
+    }
+    .section-3{
+        background: url('../img/contact-bg.jpg') no-repeat;
+       background-size: cover;
+       min-height: 400px;
+            padding: 5% 0 80px;
+      .max-width{
+        max-width: 530px;
+        margin: 0 auto;
+        float: none;
+      }
+      .text-center{
+        text-align: center;
+      }
+      .contact-form{
+        input[type="text"]{
+            width: 100%;
+            margin: 10px 0;
+            border-radius: 5px;
+            padding: 5px 5px 2px;
+        }
+        textarea{
+          margin: 10px 0;
+          padding: 5px 10px;
+          width: 100%;
+          border-radius: 5px;
+        }
+        #btn-email{
+          background: @blue;
+          border: none;
+          float: right;
+          border-radius: 5px;
+          padding: 10px;
+          line-height: 1;
+        }
+      }
     }
     footer {
-      background: @black;
-      position: absolute;
+      background: #5585b6;
+      height: 80px;
+      position: fixed;
       left: 0;
       bottom: 0;
-      height: 20px;
       width: 100%;
+      .text-center{
+        text-align: center;
+        padding: 30px 0;
+      }
+      ul{
+        display: inline-block;
+
+        li{
+           padding-right:30px;
+           float:left;
+           color: @text-color;
+            font-size: 18px;
+          &:first-child{
+            list-style:none;
+          }
+          a{
+            color: @text-color;
+          }
+        }
+      }
     }
   }
 }

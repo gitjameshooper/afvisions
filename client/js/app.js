@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('mainApp', ['ngRoute'])
+        .module('mainApp', ['ngRoute','duScroll'])
         .config(['$routeProvider', function($routeProvider) {
             $routeProvider
                 .when('/', {
