@@ -13,6 +13,9 @@ html {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0 0 20px;
     color: @text-color;
+    .pos-r{
+      position: relative;
+    }
     header {
       background: @blue;
       min-height: 400px;
@@ -123,23 +126,99 @@ html {
       left: 0;
       bottom: 0;
       width: 100%;
+      .logo-text{
+        background: url(/img/sprite.png);
+        height: 70px;
+        width: 220px;
+        margin: 5px;
+         display: inline-block;
+        &:hover{
+          background-position: 0px -68px;
+    
+        }
+      }
+      .icon-linkedin{
+        background: url(/img/sprite.png);
+        height: 70px;
+        width: 70px;
+        margin: 5px;
+        background-position: -220px 0px;
+        margin: 5px;
+        display: inline-block;
+        &:hover{
+          background-position: -220px -68px;
+     
+        }
+      }
+      .icon-facebook{
+        background: url(/img/sprite.png);
+        height: 70px;
+        width: 70px;
+        background-position: -295px 0px;
+        margin: 5px;
+        display: inline-block;
+        &:hover{
+           background-position: -295px -68px;
+  
+        }
+      }
+      .icon-forms{
+        background: url(/img/sprite.png);
+        height: 70px;
+        width: 70px;
+        background-position: -368px 0px;        
+        margin: 5px;
+        display: inline-block;
+        cursor: pointer;
+        &:hover{
+           background-position: -368px -68px; 
+     
+        }
+      }
+      .form-btns{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 240px;
+        width: 200px;
+        .btns{
+          background: #5585b6;
+          border: none;
+          float: left;
+          border-radius: 5px;
+          padding: 10px;
+          line-height: 1;
+          display: inline-block;
+          clear: both;
+          width: 130px;
+          text-align: center;
+          color: @text-color;
+          margin: 10px 0;
+        }
+      }
       .text-center{
         text-align: center;
         padding: 30px 0;
       }
       ul{
         display: inline-block;
+            padding-left: 30px;
 
         li{
            padding-right:30px;
            float:left;
            color: @text-color;
-            font-size: 18px;
+            font-size: 28px;
+            cursor:pointer;
           &:first-child{
             list-style:none;
           }
           a{
             color: @text-color;
+            &:hover{
+              color: @text-color;
+
+            }
           }
         }
       }

@@ -4,20 +4,18 @@
     angular
         .module('mainApp')
         .controller('mainController', mainController);
-    mainController.$inject = ['$scope', '$log'];
+    mainController.$inject = ['$scope', '$log','$document'];
       
-    function mainController($scope, $log) {
+    function mainController($scope, $log, $document) {
         var vm = this;
         // config
         vm.cfg = {};
+        vm.showBtns = false;
+         // functions
+        vm.resizeDiv = resizeDiv;
+            
         // console.log(angularModalService);
-        console.log(duScroll);
-            var container = angular.element(document.getElementById('about'));
-           
-            $scope.toTheTop = function() {
-                 container.scrollTop(0, 5000);
-            }
-            console.log('hey');
+
 
             window.onresize = function(event) {
             resizeDiv();
@@ -26,7 +24,9 @@
             function resizeDiv() {
               var vpw = $(window).width();
               var vph = $(window).height();
+              var logovph = vph/2.2;
             $('header').css({'height': vph + 'px'});
+            $('.logo').css({'height': logovph + 'px'});
             }
             resizeDiv();
         // $scope.show = function() {
