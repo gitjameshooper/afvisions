@@ -8,6 +8,7 @@
     "angular-route": "1.5.7",
     "angular-scroll": "^1.0.0",
     "body-parser": "1.15.2",
+    "bootstrap": "^3.3.7",
     "bootstrap-less": "3.3.8",
     "crypto": "0.0.3",
     "crypto-js": "^3.1.6",

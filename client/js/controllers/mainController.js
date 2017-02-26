@@ -4,18 +4,38 @@
     angular
         .module('mainApp')
         .controller('mainController', mainController);
-    mainController.$inject = ['$scope', '$log','$document'];
+    mainController.$inject = ['$scope', '$log','$document', 'ModalService'];
       
-    function mainController($scope, $log, $document) {
+    function mainController($scope, $log, $document, ModalService) {
         var vm = this;
         // config
         vm.cfg = {};
         vm.showBtns = false;
          // functions
         vm.resizeDiv = resizeDiv;
+        vm.showModal = showModal;
             
         // console.log(angularModalService);
 
+
+        function showModal(){
+             // Just provide a template url, a controller and call 'showModal'.
+                ModalService.showModal({
+                  templateUrl: "/views/partials/modal.html",
+                  controller: "modalController"
+                }).then(function(modal) {
+                  // The modal object has the element built, if this is a bootstrap modal
+                  // you can call 'modal' to show it, if it's a custom modal just show or hide
+                  // it as you need to.
+                  
+                  
+                  modal.element.modal();
+                   modal.close.then(function(result) {
+                        $scope.message = "You said " + result;
+                    });
+                  
+                });
+        }
 
             window.onresize = function(event) {
             resizeDiv();
@@ -43,3 +63,10 @@
          
     }  
 })();
+ 
+   
+
+   
+
+ 
+ 
