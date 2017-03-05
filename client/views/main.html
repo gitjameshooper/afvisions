@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row ">
             <div class="col-xs-12 max-width">
-            <img class="andrew" src="img/andrew.png"  alt="Andrew Fumagalli"/>
+                <img class="andrew" src="img/andrew.png" alt="Andrew Fumagalli" />
                 <p>Hello, I’m Andrew Fumagalli, creator of AFvisions.com, and multi-disciplinary graphic designer living in Austin, Texas.</p>
                 <p>My priority is the needs of my clients and ensuring I am an effective and reliable designer, while supplying results the client and I are both excited about. </p>
                 <p>I am grateful for every learning experience: the invigorating projects, the relentless training and invaluable mentors.</p>
@@ -14,21 +14,27 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-               	<ul>
-               		<li><img src="/img/thumbs/Portfolio_Thumbnails-01.png"/><p>Signs Decals Banners</p></li>
-               		<li><img src="/img/thumbs/Portfolio_Thumbnails-07.png"/><p>International Palm Society</p></li>
-               		<li><img src="/img/thumbs/Portfolio_Thumbnails-03.png"/><p>AdventureAsh</p></li>
-               		<li><img src="/img/thumbs/Portfolio_Thumbnails-04.png"/><p>Trai Mai Thai</p></li>
-               		<li><img src="/img/thumbs/Portfolio_Thumbnails-05.png"/><p>Mayfield Bodyworks</p></li>
-               		<li><img src="/img/thumbs/Portfolio_Thumbnails-06.png"/><p>Tea Leaves</p></li>
-
-               	</ul>
-               	   <a class="btn btn-default" ng-click="mainApp.showModal()">Show a Modal</a>
-     
-     
-      
+                <ul>
+                    <li class="btn-open-modal" data-target="#portfolio-carousel" data-slide-to="0"><img src="/img/thumbs/Portfolio_Thumbnails-01.png" />
+                        <p>Signs Decals Banners</p>
+                    </li>
+                    <li class="btn-open-modal" data-target="#portfolio-carousel" data-slide-to="1"><img src="/img/thumbs/Portfolio_Thumbnails-07.png" />
+                        <p>International Palm Society</p>
+                    </li>
+                    <li class="btn-open-modal" data-target="#portfolio-carousel" data-slide-to="2"><img src="/img/thumbs/Portfolio_Thumbnails-03.png" />
+                        <p>Adventure Ash</p>
+                    </li>
+                    <li class="btn-open-modal" data-target="#portfolio-carousel" data-slide-to="3"><img src="/img/thumbs/Portfolio_Thumbnails-04.png" />
+                        <p>Trai Mai Thai</p>
+                    </li>
+                    <li class="btn-open-modal" data-target="#portfolio-carousel" data-slide-to="4"><img src="/img/thumbs/Portfolio_Thumbnails-05.png" />
+                        <p>Mayfield Bodyworks</p>
+                    </li>
+                    <li class="btn-open-modal" data-target="#portfolio-carousel" data-slide-to="5"><img src="/img/thumbs/Portfolio_Thumbnails-06.png" />
+                        <p>Tea Leaves</p>
+                    </li>
+                </ul>
             </div>
-       
         </div>
     </div>
 </section>
@@ -37,19 +43,101 @@
         <div class="row">
             <div class="col-xs-12 max-width">
                 <h3 class="text-center ">Have a questions? Have a project?</h3>
-                <form action="" method="post" class="contact-form">
-       
-        <input id="form-name" type="text" autocomplete="off" maxlength="20" name="name" placeholder="name" tabindex="1"> 
-        
-        <input id="form-company-name" type="text" autocomplete="off" maxlength="20" name="company-name" placeholder="company name"  tabindex="2"> 
-        
-        <input id="form-email" type="text" autocomplete="off" maxlength="30" name="email" placeholder="email" tabindex="3"> 
-    
-        <textarea id="form-text" name="comment" autocomplete="off" placeholder="..." tabindex="3" rows="12" cols="45"></textarea>
-        <input id="btn-email" type="submit" name="submit" tabindex="4" value="Send Email"> 
-     </form>
+                <div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages"></div>
+                <div data-ng-show="progress.active()" style="color: red; font-size: 50px;">Sending…</div>
+                <form name="contactForm" novalidate role="form" id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        {{ name }}
+                        <span class="label label-danger" data-ng-show="submittedEmail && contactForm.name.$error.required">Required!</span>
+                        <input type="text" name="name" placeholder="Name" data-ng-model="name" class="form-control" required />
+                    </div>
+                    <div class="form-group">
+                        <span class="label label-danger" data-ng-show="submittedEmail && contactForm.compayName.$error.required">Required!</span>
+                        <input type="text" name="companyName" placeholder="Company Name" data-ng-model="companyName" class="form-control" required />
+                    </div>
+                    <div class="form-group">
+                        <span class="label label-danger" data-ng-show="submittedEmail && contactForm.email.$error.required">Required!</span>
+                        <span class="label label-danger" data-ng-show="submittedEmail && contactForm.$error.email">Invalid email!</span>
+                        <input type="email" name="email" placeholder="Email" data-ng-model="email" class="form-control" required />
+                    </div>
+                    <div class="form-group">
+                        <span class="label label-danger" data-ng-show="submittedEmail && contactForm.comments.$error.required">Required!</span>
+                        <textarea name="comments" placeholder="..." data-ng-model="comments" class="form-control" required></textarea>
+                    </div>
+                    <button data-ng-disabled="progress.active()" data-ng-click="mainApp.sendEmail(contactForm)" class="btn btn-default btn-email">Send Email</button>
+                </form>
             </div>
-     
         </div>
     </div>
 </section>
+<!-- Modal -->
+<div class="modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+                        <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+                    </ol> -->
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="/img/projects/adventure-ash.png" alt="signs-decals-banners">
+                            <div class="carousel-caption">
+                                Signs Decals Banners
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/img/projects/commemorative-poster.png" alt="International Palm Society">
+                            <div class="carousel-caption">
+                                International Palm Society
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/img/projects/adventure-ash.png" alt="adventure-ash">
+                            <div class="carousel-caption">
+                                Adventure Ash
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/img/projects/commemorative-poster.png" alt="Trai Mai Thai">
+                            <div class="carousel-caption">
+                                Trai Mai Thai
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/img/projects/mayfield-bodyworks.png" alt="Mayfield Bodyworks">
+                            <div class="carousel-caption">
+                                Mayfield Bodyworks
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/img/projects/sesa-trip-rings.png" alt="sesa-trip-rings">
+                            <div class="carousel-caption">
+                                Sesa Trip Rings
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" data-target="#portfolio-carousel" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                         <span class="sr-only"></span>
+                    </a>
+                    <a class="right carousel-control" data-target="#portfolio-carousel" role="button" data-slide="next">
+                        
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        <span class="sr-only"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>

@@ -70,9 +70,17 @@ html {
             float: left;
             padding: 15px 15px 0;
             border-radius: 10px;
-            max-width: 31%;
+            max-width: 100%;
             margin: 1%;
             list-style: none;
+            cursor: pointer;
+            @media (min-width: @screen-sm-min) {  
+               max-width: 48%;
+            }
+            @media (min-width: @screen-lg-min) {  
+               max-width: 31%;
+            }
+
             p{
               margin: 10px 0;
               text-align: center;
@@ -81,7 +89,7 @@ html {
               width: 100%;
             }
           }
-       }
+       }  
     }
     .section-3{
         background: url('../img/contact-bg.jpg') no-repeat;
@@ -109,7 +117,7 @@ html {
           width: 100%;
           border-radius: 5px;
         }
-        #btn-email{
+        .btn-email{
           background: @blue;
           border: none;
           float: right;
@@ -176,7 +184,7 @@ html {
         margin: 5px;
         display: inline-block;
         cursor: pointer;
-        &:hover{
+        &:hover, &.active{
            background-position: -368px -68px; 
      
         }
@@ -189,17 +197,24 @@ html {
         width: 200px;
         .btns{
           background: #5585b6;
-          border: none;
+          border: 1px solid #231f20;
           float: left;
           border-radius: 5px;
           padding: 10px;
           line-height: 1;
           display: inline-block;
           clear: both;
-          width: 130px;
+          width: 160px;
           text-align: center;
           color: @text-color;
           margin: 10px 0;
+          box-shadow: 0px 0px 6px #231f20;
+          font-size: 18px;
+          font-weight: bold;
+          text-decoration: none;
+          &:hover{
+            box-shadow: 0px 0px 10px #f48466;
+          }
         }
       }
       .text-center{
@@ -231,3 +246,11 @@ html {
     }
   }
 }
+.modal{
+  .carousel{
+    .fa{
+       position: absolute;
+       top:50%;
+    }
+  }
+}   
