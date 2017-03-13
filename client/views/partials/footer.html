@@ -1,20 +1,21 @@
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-4">
+        <div class="col-xs-6 col-sm-6 col-md-4 hidden-xs">
             <a class="logo-text" href="#header-section" du-smooth-scroll du-scrollspy></a>
         </div>
-        <div class="col-xs-12 col-sm-4 text-center">
-            <ul>
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center padding-adjust">
+            <ul class="mar-pad-0 ">
                 <li><a class="link-footer" href="#about-section" du-smooth-scroll du-scrollspy>About</a></li>
                 <li><a class="link-footer" href="#work-section" du-smooth-scroll du-scrollspy>Work</a></li>
                 <li><a class="link-footer" href="#contact-section" du-smooth-scroll du-scrollspy>Contact</a></li>
             </ul>
         </div>
-        <div class="col-xs-12 col-sm-4 pos-r">
-            <a class="icon-linkedin" target="_blank" href="https://www.linkedin.com/in/andrew-fumagalli-b536998a/"></a>
-            <a class="icon-facebook" target="_blank" href="https://www.facebook.com/afvisions"></a>
-            <a class="icon-forms" ng-click="mainApp.showBtns=!mainApp.showBtns" ng-class="{active: mainApp.showBtns}"></a>
+        <div class="col-md-4 pos-r hidden-sm hidden-xs">
+            
+            <a class="icon-forms float-r" ng-click="mainApp.showBtns=!mainApp.showBtns" ng-class="{active: mainApp.showBtns}"></a>
             <div class="form-btns" ng-click="mainApp.showBtns=!mainApp.showBtns" ng-hide="!mainApp.showBtns"><a target="_blank" class="btns" href="/pdf/logo-design-brief.pdf">Logo Design Brief</a><a target="_blank" class="btns" href="/pdf/resume-andrew-fumagalli.pdf">Resume</a></div>
+            <a class="icon-facebook float-r" target="_blank" href="https://www.facebook.com/afvisions"></a>
+            <a class="icon-linkedin float-r" target="_blank" href="https://www.linkedin.com/in/andrew-fumagalli-b536998a/"></a>
         </div>
     </div>
 </div>
