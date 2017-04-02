@@ -8976,6 +8976,7 @@ html body .section-2 ul li p {
 }
 html body .section-2 ul li img {
   width: 100%;
+  border-radius: 10px;
 }
 html body .section-3 {
   background: url('../img/contact-bg.jpg') top center no-repeat;
