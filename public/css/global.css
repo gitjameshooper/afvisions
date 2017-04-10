@@ -9048,39 +9048,39 @@ html body footer .logo-text:hover {
   background-position: 0px -68px;
 }
 html body footer .icon-linkedin {
-  background: url(/img/sprite.png);
-  height: 70px;
+  background: url(/img/sprite-2.png);
+  height: 72px;
   width: 70px;
-  background-position: -220px 0px;
+  background-position: -219px -20px;
   margin: 5px;
   display: inline-block;
 }
 html body footer .icon-linkedin:hover {
-  background-position: -220px -68px;
+  background-position: -219px -106px;
 }
 html body footer .icon-facebook {
-  background: url(/img/sprite.png);
-  height: 70px;
+  background: url(/img/sprite-2.png);
+  height: 72px;
   width: 70px;
-  background-position: -295px 0px;
+  background-position: -294px -20px;
   margin: 5px;
   display: inline-block;
 }
 html body footer .icon-facebook:hover {
-  background-position: -295px -68px;
+  background-position: -294px -106px;
 }
 html body footer .icon-forms {
-  background: url(/img/sprite.png);
-  height: 70px;
+  background: url(/img/sprite-2.png);
+  height: 72px;
   width: 70px;
-  background-position: -368px 0px;
+  background-position: -367px -20px;
   margin: 5px;
   display: inline-block;
   cursor: pointer;
 }
 html body footer .icon-forms:hover,
 html body footer .icon-forms.active {
-  background-position: -368px -68px;
+  background-position: -367px -106px;
 }
 html body footer .form-btns {
   position: absolute;
