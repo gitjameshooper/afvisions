@@ -8907,6 +8907,8 @@ html body header {
 html body header .logo {
   display: block;
   margin: 60px auto;
+  position: relative;
+  left: 13px;
   max-width: 300px;
 }
 html body header ul {
