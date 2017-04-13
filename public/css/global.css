@@ -8909,7 +8909,8 @@ html body header .logo {
   margin: 60px auto;
   position: relative;
   left: 13px;
-  max-width: 300px;
+  max-width: 372px;
+  max-height: 403px;
 }
 html body header ul {
   display: inline-block;
@@ -8928,7 +8929,7 @@ html body header ul li:last-child {
   padding-right: 0px;
 }
 html body .section-1 {
-  background: url('../img/about-bg-af.jpg') center -118px no-repeat;
+  background: url('../img/about-bg-af1.jpg') center -118px no-repeat;
   background-size: 1300px 984px;
   min-height: 400px;
   text-align: center;
@@ -9040,14 +9041,15 @@ html body footer {
   width: 100%;
 }
 html body footer .logo-text {
-  background: url(/img/sprite.png);
+  background: url(/img/sprite-2.png);
+  background-position: 0px -21px;
   height: 70px;
   width: 215px;
   margin: 5px;
   display: inline-block;
 }
 html body footer .logo-text:hover {
-  background-position: 0px -68px;
+  background-position: 0px -107px;
 }
 html body footer .icon-linkedin {
   background: url(/img/sprite-2.png);
