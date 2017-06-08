@@ -9041,50 +9041,65 @@ html body footer {
   width: 100%;
 }
 html body footer .logo-text {
-  background: url(/img/sprite-2.png);
-  background-position: 0px -21px;
-  height: 70px;
-  width: 215px;
-  margin: 5px;
+  background: url(/img/afnoglow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 82px;
+  width: 100%;
+  margin: auto;
   display: inline-block;
 }
 html body footer .logo-text:hover {
-  background-position: 0px -107px;
+  background: url(/img/afglow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 html body footer .icon-linkedin {
-  background: url(/img/sprite-2.png);
+  background: url(/img/in-noglo.png);
+  background-repeat: no-repeat;
+  background-position: center;
   height: 72px;
   width: 70px;
-  background-position: -219px -20px;
   margin: 5px;
   display: inline-block;
 }
 html body footer .icon-linkedin:hover {
-  background-position: -219px -106px;
+  background: url(/img/in-glo.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 html body footer .icon-facebook {
-  background: url(/img/sprite-2.png);
+  background: url(/img/fb-noglo.png);
+  background-repeat: no-repeat;
+  background-position: center;
   height: 72px;
   width: 70px;
-  background-position: -294px -20px;
   margin: 5px;
   display: inline-block;
 }
 html body footer .icon-facebook:hover {
-  background-position: -294px -106px;
+  background: url(/img/fb-glo.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 html body footer .icon-forms {
-  background: url(/img/sprite-2.png);
+  background: url(/img/forms-noglo.png);
+  background-repeat: no-repeat;
+  background-position: center;
   height: 72px;
   width: 70px;
-  background-position: -367px -20px;
   margin: 5px;
   display: inline-block;
   cursor: pointer;
 }
 html body footer .icon-forms:hover,
 html body footer .icon-forms.active {
-  background-position: -367px -106px;
+  background: url(/img/forms-glo.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 html body footer .form-btns {
   position: absolute;
@@ -9206,4 +9221,19 @@ html body footer ul li a:focus {
   position: absolute;
   top: 50%;
   font-size: 1.5em;
+}
+
+
+@media (max-width: 560px) {
+  html body footer .icon-facebook, html body footer .icon-linkedin, html body footer .icon-forms, 
+  html body footer .icon-linkedin:hover, html body footer .icon-facebook:hover, html body footer .icon-forms:hover,
+  html body footer .icon-forms.active
+   {
+    height: 45px;
+    width: 45px;
+    margin: 25px 0px;
+    display: inline-block;
+    cursor: pointer;
+    background-size: 100%;
+  }
 }
