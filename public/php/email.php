@@ -3,7 +3,7 @@
 
 if (isset($_POST['inputName']) && isset($_POST['inputEmail']) && isset($_POST['inputCompany']) && isset($_POST['inputMessage'])) {
 
-    $emailAddress= 'andrewfumagalli@gmail.com';   
+    $emailAddress= 'andrew@afvisions.com';   
    $msg = 'Name: ' . $_POST['inputName'] . "\n" 
 		. 'Company Name: ' . $_POST['inputCompany'] . "\n"
 		. 'Email: ' . $_POST['inputEmail'] . "\n"
