@@ -9180,7 +9180,7 @@ html body footer ul li a:focus {
 }
 .modal .modal-dialog {
   width: 90%;
-  max-width: 900px;
+  max-width: 1250px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -9191,7 +9191,7 @@ html body footer ul li a:focus {
 }
 @media (min-width: 992px) {
   .modal .modal-dialog {
-    width: 55%;
+    width: 87%;
   }
 }
 .modal .carousel .carousel-inner > .item > img,
@@ -9217,6 +9217,15 @@ html body footer ul li a:focus {
   font-size: 1.5em;
 }
 
+.modal .item .sesa-trip-rings{
+      max-width: 400px;
+    margin: 0 auto;
+}
+
+.modal .item .i-p-s{
+      max-width: 490px;
+    margin: 0 auto;
+}
 
 @media (max-width: 560px) {
   html body footer .icon-facebook, html body footer .icon-linkedin, html body footer .icon-forms, 
