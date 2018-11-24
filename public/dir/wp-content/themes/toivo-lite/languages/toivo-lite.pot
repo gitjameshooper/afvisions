@@ -1,0 +1,600 @@
+# Copyright (C) 2015 Sami Keijonen
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Toivo Lite 1.0.4\n"
+"Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
+"POT-Creation-Date: 2015-05-06 17:17:46+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.0\n"
+"Language: en_US\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:44
+#. translators: %1$s: smiley
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive-jetpack-testimonial.php:48 index.php:35 search.php:28
+msgid "Previous page"
+msgstr ""
+
+#: archive-jetpack-testimonial.php:49 index.php:36 search.php:29
+msgid "Next page"
+msgstr ""
+
+#: archive-jetpack-testimonial.php:50 content-audio.php:40
+#: content-child-pages.php:40 content-jetpack-portfolio.php:40
+#: content-page.php:36 content-video.php:40 content.php:40 image.php:38
+#: index.php:37 search.php:30
+msgid "Page"
+msgstr ""
+
+#: area-testimonial.php:25
+msgid "Testimonials"
+msgstr ""
+
+#: comment.php:21
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:29
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:28 content-audio.php:47 content-link.php:50
+#: content-status.php:30 content-video.php:47 content.php:47
+msgid "Posted in %s"
+msgstr ""
+
+#: content-aside.php:29 content-audio.php:48 content-jetpack-portfolio.php:48
+#: content-link.php:51 content-status.php:31 content-video.php:48
+#: content.php:48
+msgid "Tagged %s"
+msgstr ""
+
+#: content-audio.php:33 content-child-pages.php:33
+#: content-jetpack-portfolio.php:33 content-jetpack-testimonial.php:23
+#: content-jetpack-testimonial.php:68 content-link.php:42 content-page.php:29
+#: content-video.php:33 content.php:33 functions.php:263
+#. translators: %s: Name of current post
+#. Translators: The %s is the post title shown to screen readers.
+msgid "Read more %s"
+msgstr ""
+
+#: content-audio.php:38 content-child-pages.php:38
+#: content-jetpack-portfolio.php:38 content-page.php:34 content-video.php:38
+#: content.php:38 image.php:36
+msgid "Pages:"
+msgstr ""
+
+#: content-jetpack-portfolio.php:47
+msgid "Portfolio in %s"
+msgstr ""
+
+#: content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:35
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: footer.php:25
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:27
+msgid "Theme %1$s by %2$s"
+msgstr ""
+
+#: functions.php:112
+msgid "The main sidebar. It is displayed on the right or left side of the page."
+msgstr ""
+
+#: functions.php:122
+msgid "A sidebar located in the footer of the site."
+msgstr ""
+
+#: functions.php:132
+msgid "A sidebar located in the Front Page Template."
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:33 menu-top.php:11 menu-top.php:12
+msgid "Top Menu"
+msgstr ""
+
+#: header.php:37 menu-social.php:11 menu-social.php:12
+msgid "Social Menu"
+msgstr ""
+
+#: header.php:94
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:177
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:178
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:179
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:180
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:182 loop-meta.php:17
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:184
+#. Translators: %s is the page number.
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:186
+#. Translators: Minute archive title. %s is the minute time format.
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:188
+#. Translators: Weekly archive title. %s is the week date format.
+msgid "Week %s"
+msgstr ""
+
+#: inc/customizer.php:24
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "Layouts"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "1 Column"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "2 Columns: Content / Sidebar"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "2 Columns: Sidebar / Content"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Global Layout"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Front Page Settings"
+msgstr ""
+
+#: inc/customizer.php:75
+msgid ""
+"Callout at the top. <a href=\"%s\" target=\"_blank\">Upgrade to Toivo "
+"(Pro)</a> for adding similar Callout section at the bottom."
+msgstr ""
+
+#: inc/customizer.php:115
+msgid "%s Callout title"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "%s Callout text"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "%s Callout URL"
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "%s Callout URL text"
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "Hide testimonials"
+msgstr ""
+
+#: inc/customizer.php:202
+msgid "Check this if you want to hide testimonials from the Front Page Template."
+msgstr ""
+
+#: inc/customizer.php:221
+msgid "Testimonials after featured area"
+msgstr ""
+
+#: inc/customizer.php:222
+msgid ""
+"Check this if you want to move testimonials after Featured area in the "
+"Front Page Template."
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Child Pages"
+msgstr ""
+
+#: inc/customizer.php:242
+msgid "Blog Posts"
+msgstr ""
+
+#: inc/customizer.php:243
+msgid "Portfolios"
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "Featured Content"
+msgstr ""
+
+#: inc/customizer.php:251
+msgid ""
+"Select do you want to feature Child Pages, Blog Posts or Portfolios in "
+"Front Page."
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Callout Image"
+msgstr ""
+
+#: inc/customizer.php:272
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding "
+"Callout Image."
+msgstr ""
+
+#: inc/customizer.php:285
+msgid "Background Settings"
+msgstr ""
+
+#: inc/customizer.php:304
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer.php:325
+msgid "Header Color Opacity."
+msgstr ""
+
+#: inc/customizer.php:326
+msgid "Set Header Color opacity."
+msgstr ""
+
+#: inc/customizer.php:350
+msgid "Subsidiary Sidebar Background"
+msgstr ""
+
+#: inc/customizer.php:351
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding "
+"Subsidiary Sidebar Background Image and Color."
+msgstr ""
+
+#: inc/customizer.php:367
+msgid "Portfolio Settings"
+msgstr ""
+
+#: inc/customizer.php:388
+msgid "Portfolio Page Title"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for changing "
+"Portfolio title and description."
+msgstr ""
+
+#: inc/customizer.php:404
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:425
+msgid "Enter footer text"
+msgstr ""
+
+#: inc/customizer.php:426
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for hiding or "
+"changing Footer text."
+msgstr ""
+
+#: inc/meta-boxes.php:22
+msgid "Header Callout text"
+msgstr ""
+
+#: inc/meta-boxes.php:42
+msgid ""
+"Want to replace header text with Callout text and description in singular "
+"views? <a href=\"%s\">Upgrade to Toivo (Pro)</a>."
+msgstr ""
+
+#: inc/template-tags.php:21
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/template-tags.php:24
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: inc/template-tags.php:28
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: loop-meta.php:18
+msgid "You are browsing the search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: menu-primary.php:9
+msgid "Menu"
+msgstr ""
+
+#: menu-primary.php:11 menu-primary.php:12
+msgid "Primary Menu"
+msgstr ""
+
+#: sidebar-subsidiary.php:52
+msgid "Search"
+msgstr ""
+
+#: single.php:17
+msgid "Next"
+msgstr ""
+
+#: single.php:18
+msgid "Next:"
+msgstr ""
+
+#: single.php:20
+msgid "Previous"
+msgstr ""
+
+#: single.php:21
+msgid "Previous:"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Toivo Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://foxland.fi/downloads/toivo/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Toivo Lite is perfect fit for business, personal or blog sites. It has "
+"beautiful Front Page template where you can show your important content, "
+"testimonials and Callout links. Toivo Lite is an accessible, "
+"translation-ready theme which supports plenty of features like Right to "
+"Left languages and Schema.org microdata."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sami Keijonen"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://foxland.fi"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "No Sidebar"
+msgstr ""
+
+#: comment.php:29
+msgctxt "%1%s is for comment date"
+msgid "%1$s"
+msgstr ""
+
+#: comments.php:37
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: content-jetpack-testimonial.php:30
+msgctxt "dash before testimonial title"
+msgid "&ndash;"
+msgstr ""
+
+#: content-link.php:20
+msgctxt "Arrow for link post format in right to left languages"
+msgid "&larr;"
+msgstr ""
+
+#: content-link.php:22
+msgctxt "Arrow for link post format in left to right languages"
+msgid "&rarr;"
+msgstr ""
+
+#: footer.php:26
+msgctxt "Separator in site info."
+msgid "&middot;"
+msgstr ""
+
+#: functions.php:56
+msgctxt "nav menu location"
+msgid "Primary"
+msgstr ""
+
+#: functions.php:57
+msgctxt "nav menu location"
+msgid "Top"
+msgstr ""
+
+#: functions.php:58
+msgctxt "nav menu location"
+msgid "Social"
+msgstr ""
+
+#: functions.php:111
+msgctxt "sidebar"
+msgid "Primary"
+msgstr ""
+
+#: functions.php:121
+msgctxt "sidebar"
+msgid "Subsidiary"
+msgstr ""
+
+#: functions.php:131
+msgctxt "sidebar"
+msgid "Front Page"
+msgstr ""
+
+#: functions.php:158
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:164
+#. Translators: If there are characters in your language that are not
+#. * supported by Raleway, translate this to 'off'. Do not translate
+#. * into your own language.
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:284
+msgctxt "dash before menu item description"
+msgid "&ndash;"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:128
+msgctxt "Breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:723
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:740
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:757
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:773 inc/breadcrumb-trail.php:802
+#: inc/breadcrumb-trail.php:829 inc/breadcrumb-trail.php:856
+#: inc/breadcrumb-trail.php:1043
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:774 inc/breadcrumb-trail.php:830
+#: inc/breadcrumb-trail.php:1047
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:775 inc/breadcrumb-trail.php:1051
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumb-trail.php:803
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/customizer.php:98
+msgctxt "position of callout text"
+msgid "Top"
+msgstr ""
+
+#: inc/customizer.php:100
+msgctxt "position of callout text"
+msgid "Bottom"
+msgstr ""
+
+#: inc/template-tags.php:49
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:57
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:126
+#. Translators: Separates tags, categories, etc. when displaying a post.
+msgctxt "taxonomy terms separator"
+msgid ", "
+msgstr ""
+
+#: sidebar-front-page.php:12
+msgctxt "Sidebar aria label"
+msgid "Front Page Sidebar"
+msgstr ""
+
+#: sidebar-primary.php:12
+msgctxt "Sidebar aria label"
+msgid "Primary Sidebar"
+msgstr ""
+
+#: sidebar-subsidiary.php:10
+msgctxt "Sidebar aria label"
+msgid "Subsidiary Sidebar"
+msgstr ""
