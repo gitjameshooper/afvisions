@@ -8907,10 +8907,7 @@ html body header {
 html body header .logo {
   display: block;
   margin: 60px auto;
-  position: relative;
-  left: 13px;
-  max-width: 372px;
-  max-height: 403px;
+  max-width: 300px;
 }
 html body header ul {
   display: inline-block;
@@ -8929,7 +8926,7 @@ html body header ul li:last-child {
   padding-right: 0px;
 }
 html body .section-1 {
-  background: url('../img/about-bg-af1.jpg') center -118px no-repeat;
+  background: url('../img/about-bg.jpg') center -85px no-repeat;
   background-size: 1300px 984px;
   min-height: 400px;
   text-align: center;
@@ -8979,7 +8976,6 @@ html body .section-2 ul li p {
 }
 html body .section-2 ul li img {
   width: 100%;
-  border-radius: 10px;
 }
 html body .section-3 {
   background: url('../img/contact-bg.jpg') top center no-repeat;
@@ -9041,50 +9037,49 @@ html body footer {
   width: 100%;
 }
 html body footer .logo-text {
-  background: url(/img/sprite-2.png);
-  background-position: 0px -21px;
+  background: url(/img/sprite.png);
   height: 70px;
   width: 215px;
   margin: 5px;
   display: inline-block;
 }
 html body footer .logo-text:hover {
-  background-position: 0px -107px;
+  background-position: 0px -68px;
 }
 html body footer .icon-linkedin {
-  background: url(/img/sprite-2.png);
-  height: 72px;
+  background: url(/img/sprite.png);
+  height: 70px;
   width: 70px;
-  background-position: -219px -20px;
+  background-position: -220px 0px;
   margin: 5px;
   display: inline-block;
 }
 html body footer .icon-linkedin:hover {
-  background-position: -219px -106px;
+  background-position: -220px -68px;
 }
 html body footer .icon-facebook {
-  background: url(/img/sprite-2.png);
-  height: 72px;
+  background: url(/img/sprite.png);
+  height: 70px;
   width: 70px;
-  background-position: -294px -20px;
+  background-position: -295px 0px;
   margin: 5px;
   display: inline-block;
 }
 html body footer .icon-facebook:hover {
-  background-position: -294px -106px;
+  background-position: -295px -68px;
 }
 html body footer .icon-forms {
-  background: url(/img/sprite-2.png);
-  height: 72px;
+  background: url(/img/sprite.png);
+  height: 70px;
   width: 70px;
-  background-position: -367px -20px;
+  background-position: -368px 0px;
   margin: 5px;
   display: inline-block;
   cursor: pointer;
 }
 html body footer .icon-forms:hover,
 html body footer .icon-forms.active {
-  background-position: -367px -106px;
+  background-position: -368px -68px;
 }
 html body footer .form-btns {
   position: absolute;
