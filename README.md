@@ -12,12 +12,12 @@ This a portfolio website I built for my graphic designer friend Andrew Fumagalli
 
 ## Basic Usage
 
-* Run 'gulp serve' in your terminal.
+* Run `gulp serve` in your terminal.
 * Now you can view the app in localhost:3000 in your browser
 
 ## Built Using
 
 * Gulp
 * Node
-* Anguglar 1
+* Angular 1
 * Bootstrap 3
