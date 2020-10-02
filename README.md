@@ -1,5 +1,5 @@
 # Afvisions Website
-This a portfolio website I built for my graphic designer friend Andrew Fumagalli.
+This is a portfolio website I built for my graphic designer friend Andrew Fumagalli.
 [afvisions.com](https://afvisions.com/)
 ![Alt Img](preview.png)
 
@@ -7,7 +7,7 @@ This a portfolio website I built for my graphic designer friend Andrew Fumagalli
 
 1. Clone repo.
 2. Install [Node.js](https://nodejs.org/en/download/)
-3. Run 'npm i' in your terminal.
+3. Run 'npm i` in your terminal.
 
 
 ## Basic Usage
