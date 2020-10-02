@@ -18,7 +18,7 @@
     "gulp-nodemon": "^2.5.0",
     "gulp-rename": "1.2.2",
     "gulp-webserver": "0.9.1",
-    "jquery": "2.2.3",
+    "jquery": "3.5.0",
     "request": "2.72.0",
     "run-sequence": "1.2.2",
     "underscore": "1.8.3",
